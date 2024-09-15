@@ -1,1 +1,1 @@
-trojan://telegram-id-directvpn@18.159.242.135:22222?security=tls&encryption=none&type=tcp&sni=trojan.burgerip.co.uk#v2cross.com
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3NAMTU2LjE0Ni42Mi4xNjQ6NDQz#v2cross.com
