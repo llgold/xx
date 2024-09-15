@@ -1,1 +1,1 @@
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3NAMTU2LjE0Ni42Mi4xNjQ6NDQz#v2cross.com
+trojan://Rase1HGpHI@65.109.218.68:52661?security=none&encryption=none&type=tcp#v2cross.com
