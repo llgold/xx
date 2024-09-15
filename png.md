@@ -1,1 +1,1 @@
-trojan://Rase1HGpHI@65.109.218.68:52661?security=none&encryption=none&type=tcp#v2cross.com
+trojan://telegram-id-directvpn@18.159.242.135:22222?security=tls&encryption=none&type=tcp&sni=trojan.burgerip.co.uk#v2cross.com
