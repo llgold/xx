@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MDc0NzUxNC1mYjE0LTRmMzEtODM5MC1lMWYwNDUzZWZmNmRAaGsxLm1odzdlMi5vbmxpbmU6MjAwMDE=#v2cross.com
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVlANjkuNTAuOTUuMzk6OTEwMQ==#v2cross.com
