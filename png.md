@@ -1,1 +1,1 @@
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0NAMTQyLjIwMi40OS44NDo1MDAx#v2cross.com
+trojan://bpb-trojan@188.114.96.16:443?security=tls&encryption=none&type=ws&sni=403B3611-99bC-43b7-88D7-26Ed5d0825A9-3.pAgeS.DeV#v2cross.com
