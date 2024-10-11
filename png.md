@@ -1,1 +1,1 @@
-trojan://trojan@172.67.130.66:443?security=tls&encryption=none&type=ws&sni=test-a23.pages.dev#v2cross.com
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9TQDM4LjExNC4xMTQuNjk6NjY5Nw==#v2cross.com
