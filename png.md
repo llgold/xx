@@ -1,1 +1,1 @@
-vmess://eyJhZGQiOiIxNzIuNjQuMTY3LjI1IiwiYWlkIjoiMCIsImhvc3QiOiJpcDMuNjkyOTE5OC54eXoiLCJpZCI6IjVmM2YwOWFkLTg5Y2ItNGU5NC1hN2FkLWFhODIzOTkxMzU1NSIsIm5ldCI6IndzIiwicGF0aCI6ImdpdGh1Yi5jb20vQWx2aW45OTk5IiwicG9ydCI6IjIwODIiLCJwcyI6InYyY3Jvc3MuY29tIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
+trojan://bpb-trojan@104.18.23.235:443?security=tls&encryption=none&type=ws&sni=403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev#v2cross.com
