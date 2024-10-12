@@ -1,1 +1,1 @@
-trojan://bpb-trojan@104.18.23.235:443?security=tls&encryption=none&type=ws&sni=403b3611-99bc-43B7-88D7-26Ed5d0825A9-3.pageS.dev#v2cross.com
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3NAMjEyLjEwMi41My4xOTU6NDQz#v2cross.com
