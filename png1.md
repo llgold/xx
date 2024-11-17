@@ -1,3 +1,16 @@
+Address（地址）	104.21.238.114
+Port（端口）	8080
+UUID（用户ID）	bc839483-5d46-4b42-e8ea-bb62c5ec49c9
+alterId（额外ID）	0
+security（加密方式）	auto
+network（传输协议）	httpupgrade
+headerType（伪装类型）	none
+伪装域名（host）	http3.9375943.xyz
+路径（path）	github.com/Alvin9999
+底层传输安全（TLS）	不填
+
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImRvbmd0YWl3YW5nLmNvbVx1ODI4Mlx1NzBCOTEiLA0KICAiYWRkIjogIjEwNC4yMS4yMzguMTE0IiwNCiAgInBvcnQiOiAiODA4MCIsDQogICJpZCI6ICJiYzgzOTQ4My01ZDQ2LTRiNDItZThlYS1iYjYyYzVlYzQ5YzkiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogImh0dHB1cGdyYWRlIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImh0dHAzLjkzNzU5NDMueHl6IiwNCiAgInBhdGgiOiAiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
+
 Address(地址): 38.114.103.52
 
 Port（端口）: 12345
