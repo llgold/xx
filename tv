@@ -1,6 +1,12 @@
 {
   "lives": [
     {
+      "name": "本地iptv",
+      "type": 0,
+      "url": "http://192.168.50.4:35455/tv.m3u",
+      "playerType": 1
+    },
+    {
       "name": "电视直播",
       "type": 0,
       "url": "https://tv.iill.top/m3u/Gather",
@@ -22,12 +28,6 @@
       "name": "网络直播",
       "type": 0,
       "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 1
-    },
-    {
-      "name": "本地iptv",
-      "type": 0,
-      "url": "http://192.168.50.4:35455/tv.m3u",
       "playerType": 1
     }
   ]
