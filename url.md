@@ -15,3 +15,5 @@ https://ghcy.eu.org/https://raw.githubusercontent.com/xianyuyimu/TVBOX-/main/TVB
 
 https://b.yunshare.org/api/v1/client/subscribe?token=1082871a9dea460c52c33b61ebd4fe9b
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/llgold/xx/main/tv
+https://ghcy.eu.org/https://raw.githubusercontent.com/llgold/xx/main/tv
+https://slink.ltd/https://raw.githubusercontent.com/llgold/xx/main/tv
