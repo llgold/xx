@@ -5,3 +5,5 @@ vless://22a54b72-9c39-4bb0-97d0-41bbaaca2a67@195.154.56.233:22234?encryption=non
 ssr://ZG9uZ3RhaXdhbmc1LmNvbTo0MDAwMDphdXRoX2NoYWluX2E6Y2hhY2hhMjAtaWV0Zjp0bHMxLjJfdGlja2V0X2F1dGg6Wkc5dVozUmhhWGRoYm1jdVkyOXQvP29iZnNwYXJhbT0mcmVtYXJrcz1aRzl1WjNSaGFYZGhibWN1WTI5dDVyU2I1cDJKNTUtMg
 
 ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@46.17.42.24:23355#dongtaiwang.com%E8%8A%82%E7%82%B9ss
+
+trojan://dXjPoF4W3I@57.129.50.213:1935?security=tls&encryption=none&type=tcp&sni=x1ger-ovh.devefun.net#%E6%B3%95%E5%9B%BD-unknown
