@@ -6,4 +6,4 @@ ssr://ZG9uZ3RhaXdhbmc1LmNvbTo0MDAwMDphdXRoX2NoYWluX2E6Y2hhY2hhMjAtaWV0Zjp0bHMxLj
 
 ss://YWVzLTI1Ni1nY206ZG9uZ3RhaXdhbmcuY29t@46.17.42.24:23355#dongtaiwang.com%E8%8A%82%E7%82%B9ss
 
-trojan://dXjPoF4W3I@57.129.50.213:1935?security=tls&encryption=none&type=tcp&sni=x1ger-ovh.devefun.net#%E6%B3%95%E5%9B%BD-unknown
+trojan://74260716866785000@hardy-haddock.shiner427.skin:443?security=tls&encryption=none&type=tcp#%E6%96%B0%E5%8A%A0%E5%9D%A1-unknown
