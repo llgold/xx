@@ -1,35 +1,793 @@
 {
-  "lives": [
-    {
-      "name": "本地iptv",
-      "type": 0,
-      "url": "http://192.168.50.4:35455/tv.m3u",
-      "playerType": 1
+  "wallpaper" : "https://深色壁纸.xxooo.cf/",
+  "lives" : [ {
+    "name" : "iptv",
+    "type" : 0,
+    "url" : "https://live.ottiptv.cc/iptv.m3u?userid=6346733564&sign=c69f1014a6b26297edbc2d181e7074292455f9a7b3df83171f4f767603e9d6e9863a4f9cc435e36ece483b744a2246b4459a5aebc973166c3d44d79ea7184df14194f600dce6ba&auth_token=93926ba758eeecb590320562aa0b935b",
+    "playerType" : 1
+  }, {
+    "name" : "电视直播",
+    "type" : 0,
+    "url" : "https://sub.ottiptv.cc/yylunbo.m3u",
+    "playerType" : 1
+  }, {
+    "name" : "影视Json",
+    "type" : 0,
+    "url" : "https://tv.iill.top/json/Gather",
+    "playerType" : 1
+  }, {
+    "name" : "MyTV直播",
+    "type" : 0,
+    "url" : "https://tv.iill.top/m3u/MyTV",
+    "playerType" : 1
+  }, {
+    "name" : "体育直播",
+    "type" : 0,
+    "url" : "https://tv.iill.top/m3u/Sport",
+    "playerType" : 1
+  }, {
+    "name" : "网络直播",
+    "type" : 0,
+    "url" : "https://m.iill.top/Live.m3u",
+    "playerType" : 1
+  }, {
+    "name" : "本地iptv",
+    "type" : 0,
+    "url" : "http://192.168.50.2:35455/tv.m3u",
+    "playerType" : 1
+  }, {
+    "name" : "V4-develop202",
+    "type" : 0,
+    "url" : "https://gh.llkk.cc/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+    "playerType" : 2,
+    "epg" : "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+  }, {
+    "name" : "V6-范明明（需开启V6网络）",
+    "type" : 0,
+    "url" : "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
+    "playerType" : 2
+  }, {
+    "name" : "虎牙一起看",
+    "type" : 0,
+    "url" : "https://sub.ottiptv.cc/huyayqk.m3u",
+    "playerType" : 2,
+    "timeout" : 10,
+    "ua" : "okHttp/Mod-1.4.0.0"
+  }, {
+    "name" : "斗鱼一起看",
+    "type" : 0,
+    "url" : "https://sub.ottiptv.cc/douyuyqk.m3u",
+    "playerType" : 2,
+    "timeout" : 10,
+    "ua" : "okHttp/Mod-1.4.0.0"
+  }, {
+    "name" : "B站直播",
+    "type" : 0,
+    "url" : "https://sub.ottiptv.cc/bililive.m3u",
+    "playerType" : 2,
+    "timeout" : 10,
+    "ua" : "okHttp/Mod-1.4.0.0"
+  }, {
+    "name" : "YY轮播",
+    "type" : 0,
+    "url" : "https://sub.ottiptv.cc/yylunbo.m3u",
+    "playerType" : 2,
+    "timeout" : 10,
+    "ua" : "okHttp/Mod-1.4.0.0"
+  } ],
+  "logo" : "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a3cb3f8553ca2d67/1.5873679404696913E9.gif",
+  "sites" : [ {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "丫仙女",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "api" : "csp_XiaoYa",
+    "type" : 3,
+    "key" : "csp_XiaoYa",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "AList",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "api" : "csp_AList",
+    "type" : 3,
+    "key" : "csp_AList",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "BiliBili",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
     },
-    {
-      "name": "电视直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerType": 1
+    "api" : "csp_BiliBili",
+    "type" : 3,
+    "key" : "csp_BiliBili",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "playerType" : 2,
+    "name" : "YouTube",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
     },
-    {
-      "name": "体育直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "playerType": 1
+    "api" : "csp_Youtube",
+    "type" : 3,
+    "key" : "csp_Youtube",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "丫仙女",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "api" : "csp_XiaoYa",
+    "type" : 3,
+    "key" : "csp_XiaoYa",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "AList",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "api" : "csp_AList",
+    "type" : 3,
+    "key" : "csp_AList",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "name" : "BiliBili",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
     },
-    {
-      "name": "MyTV直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/MyTV",
-      "playerType": 1
+    "api" : "csp_BiliBili",
+    "type" : 3,
+    "key" : "csp_BiliBili",
+    "searchable" : 1
+  }, {
+    "ext" : "eyJhcGkiOiJodHRwOi8vMTkyLjE2OC41MC4yOjQ1NjciLCJ0b2tlbiI6IiJ9",
+    "filterable" : 1,
+    "quickSearch" : 1,
+    "playerType" : 2,
+    "name" : "YouTube",
+    "changeable" : 0,
+    "jar" : "http://192.168.50.2:4567/spring.jar",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
     },
-    {
-      "name": "网络直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 1
-    }
-  ]
+    "api" : "csp_Youtube",
+    "type" : 3,
+    "key" : "csp_Youtube",
+    "searchable" : 1
+  }, {
+    "key" : "豆",
+    "name" : "原公众号已寄，新号【太太太硬了】",
+    "type" : 3,
+    "api" : "csp_DouDouGuard",
+    "indexs" : 1,
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "MyDrive",
+    "name" : "\uD83D\uDDC2我的云盘┃我配置",
+    "type" : 3,
+    "api" : "csp_MyDriveGuard",
+    "changeable" : 0,
+    "indexs" : 0,
+    "searchable" : 1,
+    "style" : {
+      "type" : "oval"
+    },
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "玩偶",
+    "name" : "\uD83D\uDC7D玩偶哥哥┃4K弹幕",
+    "type" : 3,
+    "api" : "csp_WoGGGuard",
+    "timeout" : 30,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "YGP",
+    "name" : "\uD83D\uDE80叨观荐影┃预告片",
+    "type" : 3,
+    "api" : "csp_YGPGuard",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "alllive",
+    "name" : "\uD83D\uDCFD️一直播┃直播",
+    "type" : 3,
+    "api" : "csp_AllliveGuard",
+    "playerType" : 2,
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "seed",
+    "name" : "\uD83D\uDCA1聚剧剧┃三盘",
+    "type" : 3,
+    "api" : "csp_SeedhubGuard",
+    "changeable" : 0,
+    "ext" : "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "indexs" : 0,
+    "style" : {
+      "type" : "list"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "立播",
+    "name" : "\uD83C\uDF1F立播┃秒播",
+    "type" : 3,
+    "api" : "csp_LibvioGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "厂长",
+    "name" : "\uD83D\uDCD4厂长┃秒播",
+    "type" : 3,
+    "api" : "csp_NewCzGuard",
+    "timeout" : 15,
+    "playerType" : 2,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "苹果",
+    "name" : "\uD83C\uDF4E苹果┃秒播",
+    "type" : 3,
+    "api" : "csp_LiteAppleGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "文采",
+    "name" : "\uD83D\uDCAE文采┃秒播",
+    "type" : 3,
+    "api" : "csp_JpysGuard",
+    "timeout" : 15,
+    "playerType" : 2,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "原创",
+    "name" : "☀原创┃秒播",
+    "type" : 3,
+    "api" : "csp_YCyzGuard",
+    "timeout" : 30,
+    "playerType" : 1,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "比特",
+    "name" : "\uD83C\uDF44比特┃秒播",
+    "type" : 3,
+    "api" : "csp_BttwooGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "下饭",
+    "name" : "\uD83C\uDF59下饭┃多线",
+    "type" : 3,
+    "api" : "csp_AppSxGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "filterable" : 1,
+    "ext" : "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM=",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "鲸鱼",
+    "name" : "\uD83D\uDC40鲸鱼┃多线",
+    "type" : 3,
+    "api" : "csp_AppSxGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "filterable" : 1,
+    "ext" : "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ==",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "欢视",
+    "name" : "\uD83D\uDC53欢视┃多线",
+    "type" : 3,
+    "api" : "csp_AppTTGuard",
+    "timeout" : 15,
+    "playerType" : 2,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "ext" : "uqGL1bNENExT9fFAy5mE5qU=",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "热播",
+    "name" : "\uD83D\uDCFA热播┃多线",
+    "type" : 3,
+    "api" : "csp_AppTTGuard",
+    "timeout" : 15,
+    "playerType" : 2,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "ext" : "uqGL1bNENExT7/hGxpSE5qU=",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "红豆",
+    "name" : "\uD83C\uDF4A红豆┃多线",
+    "type" : 3,
+    "api" : "csp_AppSxGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "ext" : "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A==",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "糯米",
+    "name" : "\uD83C\uDF53糯米┃多线",
+    "type" : 3,
+    "api" : "csp_NmyswvGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "奥特",
+    "name" : "\uD83C\uDFDD奥特┃多线",
+    "type" : 3,
+    "api" : "csp_AueteGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "荐片",
+    "name" : "\uD83D\uDC2D荐片┃P2P",
+    "type" : 3,
+    "api" : "csp_JPJGuard",
+    "timeout" : 15,
+    "playerType" : 2,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "新6V",
+    "name" : "\uD83E\uDDF2新6V┃磁力",
+    "type" : 3,
+    "api" : "csp_SixVGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : "https://www.xb6v.com/",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Dm84",
+    "name" : "\uD83D\uDE8C巴士┃动漫",
+    "type" : 3,
+    "api" : "csp_Dm84Guard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Ysj",
+    "name" : "\uD83C\uDF80异界┃动漫",
+    "type" : 3,
+    "api" : "csp_YsjGuard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Anime1",
+    "name" : "\uD83D\uDC3E日本┃动漫",
+    "type" : 3,
+    "api" : "csp_Anime1Guard",
+    "timeout" : 15,
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 1,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "超全",
+    "name" : "⚽超全┃看球",
+    "type" : 3,
+    "api" : "csp_ZbzGuard",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "style" : {
+      "type" : "list"
+    },
+    "ext" : "uqGL1fpJNAUf8fdTwZCE5qSp+Q==",
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "88",
+    "name" : "⚽88┃看球",
+    "type" : 3,
+    "api" : "csp_Sir88Guard",
+    "timeout" : 15,
+    "searchable" : 0,
+    "changeable" : 0,
+    "style" : {
+      "type" : "list"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "看球",
+    "name" : "⚽手机┃看球",
+    "type" : 3,
+    "api" : "csp_KanqiuGuard",
+    "timeout" : 15,
+    "searchable" : 0,
+    "changeable" : 0,
+    "style" : {
+      "type" : "list"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "MTV1",
+    "name" : "\uD83C\uDF99️易听┃音乐",
+    "type" : 3,
+    "api" : "csp_MusicGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1
+    },
+    "searchable" : 1,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "MTV",
+    "name" : "\uD83C\uDFB6明星┃MV",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "有声小说",
+    "name" : "\uD83C\uDFA7有声┃小说",
+    "type" : 3,
+    "api" : "csp_Tingshu275Guard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Aid",
+    "name" : "\uD83D\uDE91急救┃教学",
+    "type" : 3,
+    "api" : "csp_FirstAidGuard",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "style" : {
+      "type" : "rect",
+      "ratio" : 3.8
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "虎牙直播js",
+    "name" : "\uD83D\uDC2F虎牙┃直播",
+    "type" : 3,
+    "api" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
+    "ext" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.755
+    },
+    "timeout" : 15,
+    "playerType" : "2",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0
+  }, {
+    "key" : "斗鱼js",
+    "name" : "\uD83D\uDC1F斗鱼┃直播",
+    "type" : 3,
+    "api" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+    "ext" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.755
+    },
+    "timeout" : 15,
+    "playerType" : "2",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0
+  }, {
+    "key" : "抠搜",
+    "name" : "\uD83C\uDF44抠抠┃搜搜",
+    "type" : 3,
+    "api" : "csp_KkSsGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "UC",
+    "name" : "\uD83C\uDF08优汐┃搜搜",
+    "type" : 3,
+    "api" : "csp_UuSsGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "YiSo",
+    "name" : "\uD83D\uDE39易搜┃三盘",
+    "type" : 3,
+    "api" : "csp_YiSoGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto",
+      "yisouCookie" : "150e5bb8-401e-4f1f-b74e-7fd5f8bd6dea"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "米搜",
+    "name" : "\uD83E\uDD8B米搜┃优夸",
+    "type" : 3,
+    "api" : "csp_MIPanSoGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "xzso",
+    "name" : "\uD83D\uDC7B盘他┃夸父",
+    "type" : 3,
+    "api" : "csp_XzsoGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "YpanSo",
+    "name" : "\uD83D\uDC1F盘她┃夸父",
+    "type" : 3,
+    "api" : "csp_YpanSoGuard",
+    "searchable" : 1,
+    "quickSearch" : 1,
+    "changeable" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "push_agent",
+    "name" : "\uD83D\uDEF4手机┃推送",
+    "type" : 3,
+    "api" : "csp_PushGuard",
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "ext" : {
+      "Cloud-drive" : "tvfan/Cloud-drive.txt",
+      "from" : "4k|auto"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Bili",
+    "name" : "\uD83C\uDD71哔哔合集┃弹幕",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 1,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "Biliych",
+    "name" : "\uD83C\uDD71哔哔演唱会┃弹幕",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 1,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "dr_兔小贝",
+    "name" : "\uD83D\uDCDA儿童┃启蒙",
+    "type" : 3,
+    "api" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+    "ext" : "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0
+  }, {
+    "key" : "少儿教育",
+    "name" : "\uD83D\uDCDA少儿┃教育",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "小学课堂",
+    "name" : "\uD83D\uDCDA小学┃课堂",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "初中课堂",
+    "name" : "\uD83D\uDCDA初中┃课堂",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "高中教育",
+    "name" : "\uD83D\uDCDA高中┃课堂",
+    "type" : 3,
+    "api" : "csp_BiliGuard",
+    "style" : {
+      "type" : "rect",
+      "ratio" : 1.597
+    },
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "ext" : {
+      "json" : "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+    },
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "fan",
+    "name" : "导航 www.饭太硬.com",
+    "type" : 3,
+    "api" : "csp_XPathGuard",
+    "searchable" : 1,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  }, {
+    "key" : "cc",
+    "name" : "请勿相信视频中广告",
+    "type" : 3,
+    "api" : "csp_XPathGuard",
+    "searchable" : 1,
+    "quickSearch" : 0,
+    "changeable" : 0,
+    "jar" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
+  } ],
+  "spider" : "https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6"
 }
-
