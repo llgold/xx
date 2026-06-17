@@ -17,3 +17,4 @@ https://b.yunshare.org/api/v1/client/subscribe?token=1082871a9dea460c52c33b61ebd
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/llgold/xx/main/tv
 https://ghcy.eu.org/https://raw.githubusercontent.com/llgold/xx/main/tv
 https://slink.ltd/https://raw.githubusercontent.com/llgold/xx/main/tv
+https://ghfast.top/raw.githubusercontent.com/llgold/xx/main/tv
